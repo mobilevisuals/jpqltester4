@@ -1,9 +1,13 @@
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
+@NamedQueries(
+        {
+                @NamedQuery(name = "findall", query = "select p from Point p"),
+                @NamedQuery(name = "biggerThanX", query = "select p from Point p where p.x>:x")
+        }
+
+)
 
 @Entity
 public class Point implements Serializable {
