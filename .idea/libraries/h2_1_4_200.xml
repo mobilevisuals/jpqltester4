@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="h2-1.4.200">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../libs/h2-1.4.200.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/eclipselink-2.7.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
